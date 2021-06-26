@@ -173,7 +173,7 @@ def fuzzifikasi_umur(df, jumlah_N):
 		d_t_7 = pd.DataFrame(my.TrapMf(list_umur, r7), columns=[''])
 		d_t_8 = pd.DataFrame(my.TrapMf(list_umur, r8), columns=[''])
 		d_t_9 = pd.DataFrame(my.TrapMf(list_umur, r9), columns=[''])
-		d_t_10 = pd.DataFrame(my.TrapMf(list_umur, r10), columns=[''])
+		d_t_10 = pd.DataFrame(my.R_Mf(list_umur, r10), columns=[''])
 		
 		df_hasil['kategori umur'] = np.where(d_t_1 > d_t_2, 'Umur kurang dari 33 tahun', 
 									np.where(d_t_2 > d_t_3, 'Umur sekitar 31-37 tahun', 
