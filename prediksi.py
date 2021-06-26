@@ -10,11 +10,11 @@ def myCountN(u):
 	Output:
 		Panjang rule u.
 	'''
-    count = 1
-    for i in u:
-        if i == ',':
-            count += 1
-    return count
+	count = 1
+	for i in u:
+		if i == ',':
+			count += 1
+	return count
 
 
 def sup(ket, support):
