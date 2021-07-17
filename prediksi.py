@@ -66,11 +66,11 @@ def buat_df(hasil_hurim, sorting=['Utilitas','Support'], asc_dsc=[False, False])
 		_util.append(hasil_hurim.iloc[k][0][1])
 		_sup.append(hasil_hurim.iloc[k][0][2])
 
-	hasil_rule = pd.DataFrame({'CPB': _cpb, 'Keterangan': _kelas, 'Utilitas': _util, 'Support': _sup})
+	hasil_rule = pd.DataFrame({'HURI': _cpb, 'Diagnosa': _kelas, 'Utilitas': _util, 'Support': _sup})
 
-	hasil_rule['Panjang CPB'] = hasil_rule['CPB'].apply(lambda u: myCountN(u))
-	hasil_rule['Support'] = hasil_rule.apply(lambda n: sup(n.Keterangan, n.Support), axis=1)
-	hasil_rule = hasil_rule[['Panjang CPB', 'CPB', 'Keterangan', 'Utilitas', 'Support']]
+	hasil_rule['Panjang HURI'] = hasil_rule['HURI'].apply(lambda u: myCountN(u))
+	hasil_rule['Support'] = hasil_rule.apply(lambda n: sup(n.Diagnosa, n.Support), axis=1)
+	hasil_rule = hasil_rule[['Panjang HURI', 'HURI', 'Diagnosa', 'Utilitas', 'Support']]
 	hasil_rule = hasil_rule.sort_values(sorting, ascending=asc_dsc).reset_index(drop=True)
 	return hasil_rule
 
@@ -91,9 +91,9 @@ def prediksi_kardio(gejala, data_rule):
 	i=0
 	gejala = gejala.split(', ')    
 	while True:
-		r = data_rule.iloc[i]['CPB'].split(', ')        
+		r = data_rule.iloc[i]['HURI'].split(', ')        
 		if all([True if item in gejala else False for item in r]):
-			return data_rule.iloc[i]['CPB'], data_rule.iloc[i]['Utilitas'], data_rule.iloc[i]['Support'], data_rule.iloc[i]['Keterangan']
+			return data_rule.iloc[i]['HURI'], data_rule.iloc[i]['Utilitas'], data_rule.iloc[i]['Support'], data_rule.iloc[i]['Diagnosa']
 		i+=1
 		if i>=data_rule.shape[0]:
 			return '-', '-', '-', 'tidak berpenyakit kardiovaskular'
