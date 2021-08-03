@@ -264,7 +264,7 @@ class UPTree:
 						if(current.hlink == None):
 							break
 						current = current.hlink
-					if(item_potential_value>=self.min_util and (0 < sup <= self.max_sup)):
+					if(item_potential_value>self.min_util and (0 < sup < self.max_sup)):
 						phui.append([item,item_potential_value, sup]) #kandidat = phui
 				tree = UPTree(min_util=self.min_util, max_sup=self.max_sup)
 				tree.from_patterns(cpb,self.min_util,self.current_pattern_base+item)

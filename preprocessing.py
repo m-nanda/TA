@@ -22,7 +22,7 @@ def preprocssing_data(data):
 								'm':'Massa Tubuh', 'ts':'Sistol', 'td':'Diastol',
 								'k':'Kadar Kolestrol', 'g':'Kadar Glukosa', 'r':'Perokok Aktif',
 								'a':'Peminum Alkohol', 'f':'Aktif Berkegiatan Fisik', 
-								'y':'Diagnosa Penyakit Kardiovaskular'})
+								'y':'Diagnosis Penyakit Kardiovaskular'})
 
 	# Convert Umur
 	data['Umur (tahun-int)'] = data['Umur (hari)']/365
@@ -35,7 +35,7 @@ def preprocssing_data(data):
 	data = data[['Umur (hari)', 'Umur (tahun-int)', 'Umur (tahun-float)',
 				 'Jenis Kelamin', 'Tinggi', 'Massa Tubuh', 'Sistol',
 				 'Diastol', 'Kadar Kolestrol', 'Kadar Glukosa', 'Perokok Aktif',
-				 'Peminum Alkohol', 'Aktif Berkegiatan Fisik', 'Diagnosa Penyakit Kardiovaskular']]
+				 'Peminum Alkohol', 'Aktif Berkegiatan Fisik', 'Diagnosis Penyakit Kardiovaskular']]
 
 	# Remove Outlier
 	data = data[(data['Sistol']>0) & (data['Diastol']>0)]
@@ -116,7 +116,7 @@ def fuzzifikasi_umur(df, jumlah_N):
 			'Perokok Aktif': {1: 'Perokok aktif', 0: 'Bukan perokok aktif'},
 			'Peminum Alkohol': {1: 'Peminum alkohol', 0: 'Bukan peminum alkohol'},
 			'Aktif Berkegiatan Fisik': {1: 'Aktif berkegiatan fisik', 0: 'Tidak aktif berkegiatan fisik'},
-			'Diagnosa Penyakit Kardiovaskular': {1:'Berpenyakit kardiovaskular', 0:'Tidak Berpenyakit kardiovaskular'}
+			'Diagnosis Penyakit Kardiovaskular': {1:'berpotensi tinggi memiliki penyakit kardiovaskular', 0:'Tidak berpotensi tinggi memiliki penyakit kardiovaskular'}
 			}
 	if jumlah_N == 8:
 		r1 = [31.4, 33.8]
@@ -148,7 +148,7 @@ def fuzzifikasi_umur(df, jumlah_N):
 		df_hasil = df_hasil[['kategori umur', 'Kategori BMI', 'Kategori Tekanan Darah', 
 							 'Jenis Kelamin', 'Kadar Kolestrol', 'Kadar Glukosa', 
 							 'Perokok Aktif', 'Peminum Alkohol', 'Aktif Berkegiatan Fisik', 
-							 'Diagnosa Penyakit Kardiovaskular']]
+							 'Diagnosis Penyakit Kardiovaskular']]
 		df_hasil = df_hasil.replace(kat)
 		return df_hasil
 		
@@ -189,7 +189,7 @@ def fuzzifikasi_umur(df, jumlah_N):
 		df_hasil = df_hasil[['kategori umur', 'Kategori BMI', 'Kategori Tekanan Darah', 
 							 'Jenis Kelamin', 'Kadar Kolestrol', 'Kadar Glukosa', 
 							 'Perokok Aktif', 'Peminum Alkohol', 'Aktif Berkegiatan Fisik', 
-							 'Diagnosa Penyakit Kardiovaskular']]
+							 'Diagnosis Penyakit Kardiovaskular']]
 		df_hasil = df_hasil.replace(kat)
 		return df_hasil
 
@@ -216,10 +216,10 @@ def bentuk_data_transaksi_medis(df, persentase_data_tes):
 	transaksi = df_trans_medis['trans'].to_list()
 	
 	# Membuat Y data / Konsekuen / Label
-	kardio = df_trans_medis['Diagnosa Penyakit Kardiovaskular'].to_list() 
+	kardio = df_trans_medis['Diagnosis Penyakit Kardiovaskular'].to_list() 
 	
 	# Membuat dataframe data transaksi medis
-	d = {'Gejala': transaksi, 'Diagnosa': kardio}
+	d = {'Gejala': transaksi, 'Diagnosis': kardio}
 	df_trans_medis = pd.DataFrame(data=d)
 	
 	# split data transaksi medis 

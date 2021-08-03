@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>Deteksi Penyakit Kardiovaskular Dengan Metode HURIM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+	
+<style>
+.h1 {
+	text-align:center;
+	font-family: Ubuntu;
+}
+
+.p1 {
+	margin-left: 15px;
+	margin-top: 4px;
+	font-family: Ubuntu;
+	font-size: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #1ea3f4;
+  border: none;
+  color: #ffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: Ubuntu;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\22d9';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Ubuntu;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #f4511e;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
+}
+</style>
+
+<body>
+
+<div>
+<h1 class="h1"><b>Aplikasi Deteksi Penyakit Kardiovaskular</b></h1>
+</div>
+
+<div>
+	<article class="p1" align="justify">
+		Aplikasi berbasis web ini digunakan sebagai implementasi deteksi penyakit kardiovaskular menggunakan metode <b><i>High Utility Rare Itemset Mining </i>(HURIM)</b>. Aplikasi ini juga sebagai bagian dari Tugas Akhir.
+	</article>
+
+	<article class="p1">
+		<b>Silakan pilih tipe pengguna:</b>
+		<ul class="p1">
+			<li> <b><i>User</i></b> &emsp;&emsp; : Sebagai pengguna umum, untuk melakukan deteksi saja.
+			<li> <b><i>Admin</i></b> &emsp;&emsp; : Sebagai pengguna khusus, dapat melakukan penyesuaian parameter dan melakukan deteksi.	
+		</ul>	
+	</article>
+</div>
+
+<div>
+	<button class="button" style="vertical-align:middle" id="gen" 
+				onclick="href:'https://share.streamlit.io/mns-037/tes/main/app-old.py'">
+				<span><b><i>Admin</i></b></span>
+		</button></br>
+	<button class="button" style="vertical-align:middle"
+				onclick="href:'https://share.streamlit.io/mns-037/tes/main/app.py'">
+		<span><b><i><a href:'https://share.streamlit.io/mns-037/tes/main/app.py'>User</a></i></b></span>
+	</button></br>
+</div>
+
+</body>
