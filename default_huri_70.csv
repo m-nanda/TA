@@ -1,0 +1,117 @@
+Panjang HURI;HURI;Diagnosis;Utilitas;Support
+1;BMI_Obesitas;tidak berpotensi memiliki penyakit kardiovaskular;70097,48;11542
+1;Laki-Laki;tidak berpotensi memiliki penyakit kardiovaskular;61555,94;10911
+1;Hipertensi tingkat 1;berpotensi memiliki penyakit kardiovaskular;70342,65;9627
+1;Umur sekitar 51-58 tahun;berpotensi memiliki penyakit kardiovaskular;82874,94;8701
+1;Umur sekitar 51-58 tahun;tidak berpotensi memiliki penyakit kardiovaskular;75628,36;8477
+1;Umur sekitar 55-63 tahun;berpotensi memiliki penyakit kardiovaskular;72475,24;7662
+2;Perempuan, Prahipertensi;tidak berpotensi memiliki penyakit kardiovaskular;79352;32
+2;Perempuan, Aktif berkegiatan fisik;tidak berpotensi memiliki penyakit kardiovaskular;74618,06;32
+2;Perempuan, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;62007,32;32
+2;Perempuan, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;74489,26;31
+2;Prahipertensi, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;96582,45;16
+2;Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi memiliki penyakit kardiovaskular;94408,02;16
+2;Prahipertensi, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;81799,3;16
+3;Perempuan, Prahipertensi, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;78216,52;16
+3;Perempuan, Prahipertensi, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;77782,25;16
+3;Perempuan, Prahipertensi, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;72345,9;16
+3;Perempuan, Prahipertensi, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;69475,74;16
+2;Prahipertensi, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;65551,55;16
+3;Perempuan, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi memiliki penyakit kardiovaskular;65212,75;16
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;90294,36;8
+2;Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;88820,64;8
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;86977,86;8
+3;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;86654,73;8
+3;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;83819,4;8
+2;Kolestrol normal, Glukosa normal;berpotensi memiliki penyakit kardiovaskular;73751;8
+3;Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;73597,36;8
+3;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;73215,42;8
+2;Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;72192,2;8
+3;Perempuan, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;68415,46;8
+2;Kolestrol normal, Aktif berkegiatan fisik;berpotensi memiliki penyakit kardiovaskular;66511;8
+3;Perempuan, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi memiliki penyakit kardiovaskular;65162,72;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;64285,33;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;63896,31;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;59543,71;8
+2;Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;93939;4
+3;Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;92891,52;4
+3;Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;91940,46;4
+3;Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;89558,71;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;85646,52;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;84667,68;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;82717,16;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;80364,82;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;79758,59;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;77259,19;4
+3;Perempuan, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;73544,64;4
+3;Perempuan, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;73295,76;4
+2;Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;73112;4
+3;Perempuan, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;71029,06;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;68538,43;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;68252,54;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;66099,5;4
+2;Aktif berkegiatan fisik, Glukosa normal;berpotensi memiliki penyakit kardiovaskular;64654,8;4
+3;Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi memiliki penyakit kardiovaskular;64519,44;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;64310,06;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;64082,14;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;62060,64;4
+3;Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;92176;2
+3;Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;89624;2
+4;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;87790,33;2
+4;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;85303,13;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;82926,08;2
+4;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;81070,32;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;79829,28;2
+4;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;78870,16;2
+3;Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;78770,53;2
+3;Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;76182,01;2
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;75656,64;2
+2;Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;75037;2
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi memiliki penyakit kardiovaskular;73569,31;2
+3;Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi memiliki penyakit kardiovaskular;71809;2
+4;Perempuan, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;71371,5;2
+4;Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;70965,11;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;70160,32;2
+2;Glukosa normal, Bukan perokok aktif;berpotensi memiliki penyakit kardiovaskular;70033;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;69936,42;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;69852,84;2
+3;Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi memiliki penyakit kardiovaskular;69798;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;67787,72;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;67523,54;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;67176,08;2
+5;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;65249,81;2
+5;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;64989,09;2
+3;Perempuan, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;61291,04;2
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;61267,92;2
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;61072,36;2
+3;Perempuan, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;60984,16;2
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;58737,53;2
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;58380,14;2
+4;Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;88497,18;1
+4;Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;87992;1
+4;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;84973,28;1
+5;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;83677,22;1
+4;Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;81691,16;1
+5;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;78044,62;1
+5;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;77349,6;1
+4;Perempuan, Prahipertensi, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;76917,82;1
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;76537,15;1
+4;Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;74615,97;1
+3;Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;73641;1
+4;Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;72537,8;1
+4;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;72411,22;1
+6;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;72094,11;1
+3;Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;70590;1
+5;Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;70202,29;1
+5;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;69223,66;1
+3;Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi memiliki penyakit kardiovaskular;68751;1
+4;Kolestrol normal, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi memiliki penyakit kardiovaskular;68652;1
+5;Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;67534,81;1
+5;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;66453,08;1
+4;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;66416,6;1
+6;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;64329,13;1
+3;Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi memiliki penyakit kardiovaskular;64266,86;1
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;63399,84;1
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;63186,6;1
+6;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;60433,54;1
+4;Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi memiliki penyakit kardiovaskular;60383,92;1

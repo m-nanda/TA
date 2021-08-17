@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import hurim
 
 def myCountN(u):
   '''
@@ -30,7 +32,7 @@ def sup(ket, support):
     Nilai support yang berada pada range [0, 1]
   '''
   ket = ket.lower()
-  if ket== 'tidak berpotensi tinggi memiliki penyakit kardiovaskular':
+  if ket== 'tidak berpotensi memiliki penyakit kardiovaskular':
     return support/27987
   else:
     return support/27989
@@ -96,7 +98,8 @@ def prediksi_kardio(gejala, data_rule):
       return data_rule.iloc[i]['HURI'], data_rule.iloc[i]['Utilitas'], data_rule.iloc[i]['Support'], data_rule.iloc[i]['Diagnosis']
     i+=1
     if i>=data_rule.shape[0]:
-      return '-', '-', '-', 'tidak berpotensi tinggi memiliki penyakit kardiovaskular'
+      return '-', '-', '-', 'tidak berpotensi memiliki penyakit kardiovaskular'
+
 
 def pred_y(hasil):    
   return hasil[-1].lower()
@@ -106,7 +109,7 @@ def rule(hasil):
   return hasil[:-1]
 
 
-ket = {'tidak berpotensi tinggi memiliki penyakit kardiovaskular':0, 'berpotensi tinggi memiliki penyakit kardiovaskular':1, '-':np.nan}
+ket = {'tidak berpotensi memiliki penyakit kardiovaskular':0, 'berpotensi memiliki penyakit kardiovaskular':1, '-':np.nan}
 
 
 def hasil_metric(data):
@@ -131,6 +134,7 @@ def hasil_metric(data):
   #tn, fp, fn, tp = cm(data['y_aktual'], data['y_pred']).ravel()
 
   return akurasi(data['y_aktual'], data['y_pred']), presisi(data['y_aktual'], data['y_pred']), recall(data['y_aktual'], data['y_pred']), f1(data['y_aktual'], data['y_pred']), cm(data['y_aktual'], data['y_pred'])
+
 
 def get_it_u(u, n):
   '''
@@ -238,6 +242,7 @@ def get_it_bmi(m,t):
   else:
     return 'BMI_Obesitas_II'
 
+
 def get_it_bp(sis, dis):
   '''
   Fungsi ini untuk mengonversi tekanan sistol dan 
@@ -262,3 +267,89 @@ def get_it_bp(sis, dis):
     return 'Hipertensi tingkat 2'
   elif sis>=180 or dis>=120:
     return 'Hipertensi krisis'
+
+
+def pred_sken_2(alfa, beta, D_Rq_plus, D_Rq_min, D_tes, eu):
+  '''
+  Fungsi untuk melakukan prediksi dengan skenario 2
+
+  Input:
+    alfa: max_sup
+    beta: min_util
+    D_Rq_plus: Data hasil Hurim kelas +
+    D_Rq_min: Data hasil Hurim kelas -
+    D_tes: Item tes
+
+  Output:
+    Diagnosis, HURI, Util, Sup
+  '''
+  util_sup = []
+  list_hasil = []
+  for maxSup in [alfa]:
+    minUtil=beta
+    Profit_Table = eu
+    diag_0, diag_1 = [], []
+    temp_huri, temp_util, temp_sup = [], [], []      
+    for y in ['berpotensi memiliki penyakit kardiovaskular', 'tidak berpotensi memiliki penyakit kardiovaskular']:
+      if y=='berpotensi memiliki penyakit kardiovaskular':
+        datanya = D_Rq_plus
+        database_file = datanya
+        problem = hurim.UPTree(database_file, Profit_Table, min_util=beta, max_sup=int(maxSup*len(database_file)), tesItem=D_tes)
+        res_pred = problem.pred()
+        if len(res_pred) < 1:
+            continue
+        list_hasil.append(res_pred)
+        diag_1 = [y]*len(res_pred)
+      else:
+        datanya = D_Rq_min
+        database_file = datanya
+        problem = hurim.UPTree(database_file, Profit_Table, min_util=beta, max_sup=int(maxSup*len(database_file)), tesItem=D_tes) #, tesItem=sampel.iloc[1]['Gejala']) #,min_util=minUtil
+        res_pred = problem.pred()
+        if len(res_pred) < 1:
+            continue
+        list_hasil.append(res_pred)
+        diag_0 = [y]*len(res_pred)
+
+    # Untuk nilai default
+    if len(np.transpose(list_hasil)) < 1:
+      return 'tidak berpotensi memiliki penyakit kardiovaskular', '-', 0, 0, 0, None
+
+    for i in range(len(list_hasil)):
+      for item in np.transpose(list_hasil[i])[0]:
+        temp_huri.append(item)
+      for item in np.transpose(list_hasil[i])[1]:
+        temp_util.append(item)
+      for item in np.transpose(list_hasil[i])[2]:
+        temp_sup.append(item)
+    ff_ = pd.DataFrame({
+              'HURI': temp_huri,
+              'Diagnosis': diag_1 + diag_0,
+              'Util': temp_util,
+              'Sup': temp_sup 
+          })
+    ff_['Util'] = ff_['Util'].astype(float)
+    ff_['Sup']  = ff_['Sup'].astype(int)
+    ff_ = ff_.sort_values(by=['Util'], ascending=False)
+    conf = hitung_conf(ff_, ff_.iloc[0]['HURI'], ff_.iloc[0]['Diagnosis'])
+    return ff_.iloc[0]['Diagnosis'], ff_.iloc[0]['HURI'], ff_.iloc[0]['Util'], ff_.iloc[0]['Sup'], conf, ff_
+
+
+def hitung_conf(df_pred, HURI, Diagnosis):
+  count_xy, count_x = 0, 0
+  X = HURI.split(', ')
+  for i in range(df_pred.shape[0]):
+    if all([True if item in df_pred.iloc[i]['HURI'].split(', ') else False for item in X]):
+      count_x += 1
+    if all([True if item in df_pred.iloc[i]['HURI'].split(', ') else False for item in X]) and df_pred.iloc[i]['Diagnosis']==Diagnosis:
+      count_xy += 1
+  conf = count_xy/count_x
+  return conf  
+
+def konvert (list_item, iu):
+  temp_item = list_item.split(', ')
+  temp_list = []
+  for item in temp_item:
+    for i in range(len(iu)):
+      if item in iu[i]:
+        temp_list.append((item, i+1))        
+  return temp_list

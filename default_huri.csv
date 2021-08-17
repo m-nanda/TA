@@ -1,0 +1,692 @@
+Panjang HURI;HURI;Diagnosis;Utilitas;Support
+1;BMI_Obesitas_II;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37473,65;5520
+1;Umur lebih dari 60 tahun;berpotensi tinggi memiliki penyakit kardiovaskular;50309,99;5257
+1;BMI_Normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42721,32;5239
+1;Tidak aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42953,76;5090
+1;Kolestrol jauh diatas normal;berpotensi tinggi memiliki penyakit kardiovaskular;46373,32;5024
+1;BMI_Overweight;berpotensi tinggi memiliki penyakit kardiovaskular;47559,56;4993
+1;Umur sekitar 55-63 tahun;tidak berpotensi tinggi memiliki penyakit kardiovaskular;45957,87;4889
+1;Kolestrol diatas normal;berpotensi tinggi memiliki penyakit kardiovaskular;43015,23;4576
+1;Umur sekitar 46-53 tahun;berpotensi tinggi memiliki penyakit kardiovaskular;36426,99;4525
+1;Umur sekitar 41-48 tahun;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30799,66;4011
+1;Umur sekitar 36-43 tahun;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28550,92;3515
+1;Kolestrol diatas normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26175,81;3017
+1;Glukosa jauh diatas normal;berpotensi tinggi memiliki penyakit kardiovaskular;31084,75;2654
+1;Perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26839,17;2603
+2;Umur sekitar 51-58 tahun, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31448,55;229
+2;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;38573,04;225
+2;Umur sekitar 51-58 tahun, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;37333,02;215
+2;Umur sekitar 55-63 tahun, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;33015;215
+2;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28505,21;214
+2;Umur sekitar 51-58 tahun, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;39260,65;212
+2;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;33284,08;207
+2;Umur sekitar 55-63 tahun, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;33281,89;202
+2;Umur sekitar 55-63 tahun, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27250,04;188
+2;Umur sekitar 51-58 tahun, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;38316,68;176
+2;Umur sekitar 55-63 tahun, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;32336,04;165
+2;Umur sekitar 51-58 tahun, Perempuan;berpotensi tinggi memiliki penyakit kardiovaskular;38488,9;159
+2;Umur sekitar 55-63 tahun, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30103,56;155
+2;Umur sekitar 55-63 tahun, Perempuan;berpotensi tinggi memiliki penyakit kardiovaskular;30406,94;144
+2;Umur sekitar 55-63 tahun, Perempuan;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28032,42;143
+2;Umur sekitar 51-58 tahun, Prahipertensi;berpotensi tinggi memiliki penyakit kardiovaskular;37120,56;139
+2;Umur sekitar 55-63 tahun, Prahipertensi;berpotensi tinggi memiliki penyakit kardiovaskular;32840,04;130
+2;Umur sekitar 51-58 tahun, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30504,88;111
+2;Umur sekitar 51-58 tahun, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35881,88;106
+2;Umur sekitar 51-58 tahun, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40587,21;105
+2;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43763,57;104
+2;Umur sekitar 51-58 tahun, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;46830,48;95
+2;Hipertensi tingkat 1, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28813,34;92
+2;Umur sekitar 51-58 tahun, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;44022,21;91
+2;BMI_Overweight, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26776,32;91
+2;BMI_Overweight, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28910;90
+2;Hipertensi tingkat 1, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;38520,21;89
+2;Hipertensi tingkat 1, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;37796,58;89
+2;Hipertensi tingkat 1, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;35047,05;87
+2;Umur sekitar 51-58 tahun, BMI_Obesitas;tidak berpotensi tinggi memiliki penyakit kardiovaskular;25950,6;83
+2;Hipertensi tingkat 1, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;34891,04;80
+2;Umur sekitar 51-58 tahun, Perempuan;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43618,43;79
+2;BMI_Overweight, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30627,86;77
+2;Hipertensi tingkat 1, Perempuan;berpotensi tinggi memiliki penyakit kardiovaskular;35629,28;76
+2;Laki-Laki, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;35266,88;64
+2;BMI_Obesitas, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32267,88;62
+2;Laki-Laki, Prahipertensi;berpotensi tinggi memiliki penyakit kardiovaskular;31071,66;62
+2;BMI_Obesitas, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;30734,84;62
+2;Laki-Laki, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29787;62
+2;BMI_Obesitas, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37912,44;61
+2;Laki-Laki, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;31507;60
+2;BMI_Obesitas, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;30656,76;60
+2;BMI_Overweight, Perempuan;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26371,02;60
+2;BMI_Obesitas, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38102,52;59
+2;BMI_Obesitas, Prahipertensi;berpotensi tinggi memiliki penyakit kardiovaskular;34799,95;57
+2;BMI_Obesitas, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;33174,76;55
+2;BMI_Obesitas, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43350,7;54
+2;BMI_Obesitas, Perempuan;berpotensi tinggi memiliki penyakit kardiovaskular;30309,5;54
+2;BMI_Obesitas, Perempuan;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37990,52;50
+2;Perempuan, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;70360,73;32
+2;Perempuan, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;66231,54;32
+2;Perempuan, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;54986,32;32
+2;Prahipertensi, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;53552,86;32
+2;Prahipertensi, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;46914,46;32
+2;Laki-Laki, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;44317,47;32
+2;Laki-Laki, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37641,28;32
+2;Laki-Laki, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35001;32
+2;Laki-Laki, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31808;32
+2;Perempuan, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26202,62;32
+2;Prahipertensi, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;51861,74;31
+3;BMI_Obesitas, Perempuan, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37402,15;31
+3;Umur sekitar 51-58 tahun, Prahipertensi, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;35636,76;31
+2;Prahipertensi, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34011,08;31
+3;BMI_Obesitas, Prahipertensi, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;33582,67;31
+3;BMI_Obesitas, Prahipertensi, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;32437,55;31
+3;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;31735,82;31
+3;BMI_Obesitas, Prahipertensi, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;30329,13;31
+3;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;28718,7;31
+2;Perempuan, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;66114,44;30
+2;Prahipertensi, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;57156,25;30
+2;Perempuan, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43514,86;30
+3;Umur sekitar 55-63 tahun, Prahipertensi, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;31026,84;30
+2;Prahipertensi, Perempuan;berpotensi tinggi memiliki penyakit kardiovaskular;55589,42;29
+3;Umur sekitar 51-58 tahun, Perempuan, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42843,2;29
+3;Umur sekitar 51-58 tahun, Perempuan, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42688,05;29
+3;Umur sekitar 51-58 tahun, Prahipertensi, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;34672,52;29
+3;Umur sekitar 55-63 tahun, Prahipertensi, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31570,84;29
+3;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31385,02;29
+3;Umur sekitar 55-63 tahun, Perempuan, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27394,53;29
+3;BMI_Obesitas, Perempuan, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37100,41;28
+3;BMI_Obesitas, Perempuan, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34547,85;28
+3;BMI_Obesitas, Perempuan, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33038,34;28
+3;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39052,69;27
+3;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35427,13;26
+3;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32720,68;25
+3;BMI_Overweight, Perempuan, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;25953,5;25
+3;BMI_Obesitas, Perempuan, Prahipertensi;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28285,22;24
+3;BMI_Overweight, Perempuan, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;25967,76;24
+3;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36734,93;23
+3;Umur sekitar 55-63 tahun, Perempuan, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27208,84;23
+2;Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;85824,36;16
+2;Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;83847,84;16
+2;Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;72696,14;16
+3;Perempuan, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;69375,39;16
+3;Perempuan, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;68915,98;16
+3;Perempuan, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64138,57;16
+3;Perempuan, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;61612,75;16
+2;Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;58268,27;16
+3;Perempuan, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57804,73;16
+3;Prahipertensi, Perempuan, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;54887,9;16
+2;Perempuan, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;53353,1;16
+2;Perempuan, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;50553,1;16
+2;Perempuan, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;50059,64;16
+3;Prahipertensi, Perempuan, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;47687,93;16
+3;Umur sekitar 51-58 tahun, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;44755,52;16
+2;Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;43019,86;16
+2;Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42651,25;16
+3;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42282,04;16
+3;BMI_Obesitas, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;41183,48;16
+3;Laki-Laki, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40666,47;16
+3;Laki-Laki, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40606,95;16
+3;Laki-Laki, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39870,83;16
+3;BMI_Obesitas, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39688,27;16
+3;BMI_Obesitas, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39653,42;16
+3;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38336,52;16
+3;Umur sekitar 51-58 tahun, Perempuan, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;37674,72;16
+3;Umur sekitar 51-58 tahun, Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;37422,27;16
+3;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36758,05;16
+3;Laki-Laki, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35998,5;16
+3;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35775,25;16
+3;Hipertensi tingkat 1, Perempuan, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;35004,18;16
+3;Hipertensi tingkat 1, Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34786,72;16
+3;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;32566,53;16
+4;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32095,78;16
+3;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;30612,2;16
+3;Umur sekitar 55-63 tahun, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30548,96;16
+3;Umur sekitar 55-63 tahun, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29938,68;16
+3;BMI_Obesitas, Perempuan, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29857,94;16
+3;BMI_Obesitas, Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29759,58;16
+3;BMI_Overweight, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29546,17;16
+3;Laki-Laki, Prahipertensi, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29123,14;16
+3;Hipertensi tingkat 1, Perempuan, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;28978,33;16
+3;BMI_Overweight, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28510,35;16
+3;Umur sekitar 55-63 tahun, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28120,36;16
+3;Umur sekitar 55-63 tahun, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26395;16
+3;Prahipertensi, Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;54535,34;15
+3;Prahipertensi, Perempuan, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;43659,17;15
+3;Umur sekitar 51-58 tahun, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43094,16;15
+3;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40631,32;15
+3;BMI_Obesitas, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38408,8;15
+3;Umur sekitar 55-63 tahun, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31190,15;15
+3;Hipertensi tingkat 1, Perempuan, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29745,41;15
+3;Umur sekitar 55-63 tahun, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28554,84;15
+4;BMI_Obesitas, Perempuan, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27870,54;15
+3;Prahipertensi, Perempuan, Kolestrol normal;berpotensi tinggi memiliki penyakit kardiovaskular;40261,83;14
+4;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32209,22;14
+4;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29447,6;14
+3;BMI_Overweight, Prahipertensi, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28497,84;14
+3;BMI_Overweight, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28041,57;14
+4;BMI_Obesitas, Perempuan, Prahipertensi, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27636,77;14
+4;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26646,68;14
+4;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28084,9;12
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;80203,43;8
+2;Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;78935,76;8
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;77322,93;8
+3;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;76978,41;8
+3;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;74455,39;8
+2;Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;65644;8
+3;Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;65326,7;8
+3;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64940,98;8
+2;Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64139,52;8
+3;Perempuan, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;60707,64;8
+2;Kolestrol normal, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;59041,2;8
+3;Perempuan, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57881,38;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;56999,2;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;56600,04;8
+3;Prahipertensi, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;55591,66;8
+3;Prahipertensi, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;54031,36;8
+3;Prahipertensi, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;53619,46;8
+3;Perempuan, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;52786,48;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;52771,63;8
+3;Perempuan, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;52562,46;8
+4;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;50656,81;8
+2;Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;50412;8
+3;Perempuan, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;49950,1;8
+2;Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;47323,4;8
+3;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;44213,16;8
+3;Perempuan, Kolestrol normal, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;42378,52;8
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;41762,15;8
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40181,88;8
+4;Prahipertensi, Perempuan, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;39837,43;8
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39525;8
+4;Prahipertensi, Perempuan, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;37734,41;8
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37425,35;8
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36888,96;8
+4;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36589,64;8
+3;BMI_Obesitas, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36223,68;8
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;35823,81;8
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;35807,75;8
+4;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35197,48;8
+2;Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;35190;8
+3;BMI_Obesitas, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35019,88;8
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34873,35;8
+3;BMI_Obesitas, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34837,4;8
+4;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34783,4;8
+4;Laki-Laki, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34759,32;8
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34740,66;8
+3;Laki-Laki, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34604,36;8
+3;Laki-Laki, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34468,32;8
+4;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33936,25;8
+3;Laki-Laki, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33584,04;8
+3;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33332,68;8
+3;Hipertensi tingkat 1, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;33282,55;8
+4;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33277,28;8
+4;Laki-Laki, Prahipertensi, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33053,41;8
+4;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32784,5;8
+3;Laki-Laki, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;32710,44;8
+4;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32659,75;8
+4;Laki-Laki, Prahipertensi, Bukan perokok aktif, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32559,54;8
+3;Hipertensi tingkat 1, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;32343,93;8
+3;BMI_Obesitas, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;32065,12;8
+3;Hipertensi tingkat 1, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;32038,28;8
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31886,46;8
+4;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31580,5;8
+3;BMI_Obesitas, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;31137,52;8
+4;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30934,14;8
+3;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30891,24;8
+3;Laki-Laki, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;30791,24;8
+4;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30667,86;8
+3;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30425,6;8
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;30223,69;8
+3;Umur sekitar 55-63 tahun, Perempuan, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29938,09;8
+3;Umur sekitar 55-63 tahun, Perempuan, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29761,72;8
+4;Laki-Laki, Prahipertensi, Bukan perokok aktif, Aktif berkegiatan fisik;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29508,33;8
+3;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29409,32;8
+4;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28583,53;8
+2;Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28435,44;8
+4;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27264,67;8
+3;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27009,05;8
+3;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26425,51;8
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26230;8
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26115,56;8
+4;Prahipertensi, Perempuan, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;39635,78;7
+4;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik;berpotensi tinggi memiliki penyakit kardiovaskular;31252,08;7
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29902,17;7
+2;Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;83437;4
+3;Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;82557,36;4
+3;Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;81716,07;4
+3;Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;79634,97;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;76109,2;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;75246,16;4
+3;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;73528,4;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;71407,25;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;70856,63;4
+4;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;68708,52;4
+3;Perempuan, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;65280,92;4
+3;Perempuan, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;65000,44;4
+2;Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64943;4
+3;Perempuan, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;63045,14;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;60802,73;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;60475,17;4
+4;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;58631,99;4
+2;Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;57468,84;4
+3;Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;57258,96;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57122,78;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;56880,74;4
+3;Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;55572,56;4
+3;Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;55382;4
+4;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;55122,06;4
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;50143,38;4
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;50000,01;4
+3;Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;49984,46;4
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;49715,95;4
+3;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49608,9;4
+3;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;48895,61;4
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;48175,02;4
+2;Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;46102,56;4
+3;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;44544,08;4
+2;Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;44478;4
+3;Perempuan, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;43301,4;4
+4;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;43122,21;4
+4;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;42890,69;4
+4;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;42763,4;4
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42307,1;4
+4;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;41943,58;4
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;41715,77;4
+4;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;41710,1;4
+4;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;41684,04;4
+4;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;41428,13;4
+3;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40748,63;4
+4;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;39651,34;4
+4;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39068,48;4
+4;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38583,08;4
+4;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37568,28;4
+4;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;37442,74;4
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36719,72;4
+4;BMI_Obesitas, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36628,13;4
+3;Hipertensi tingkat 1, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36623,63;4
+3;BMI_Obesitas, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36573,16;4
+4;BMI_Obesitas, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36409,67;4
+4;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36210,69;4
+3;BMI_Obesitas, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36180,96;4
+4;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36146,65;4
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35921,67;4
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;35708,31;4
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35554,66;4
+3;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35404,04;4
+3;Hipertensi tingkat 1, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;35331,47;4
+4;BMI_Obesitas, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35239,82;4
+4;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34879,78;4
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34467,1;4
+4;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33764,92;4
+3;Laki-Laki, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33742;4
+4;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33485,51;4
+4;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33012,76;4
+4;BMI_Obesitas, Perempuan, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32609,63;4
+3;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;32607,04;4
+3;Hipertensi tingkat 1, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;32403,31;4
+4;BMI_Obesitas, Perempuan, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32392,37;4
+3;Laki-Laki, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32166;4
+4;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31940,4;4
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31913,84;4
+3;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31806,19;4
+4;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31701,04;4
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31674,12;4
+3;Laki-Laki, Bukan perokok aktif, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31415;4
+4;BMI_Obesitas, Perempuan, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31332,79;4
+3;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;31195,85;4
+5;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30931,46;4
+4;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30842,64;4
+5;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30714,31;4
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30670,92;4
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30113,05;4
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30063;4
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29978;4
+4;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29805,55;4
+3;Laki-Laki, Kolestrol normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29646;4
+3;BMI_Obesitas, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29526,16;4
+3;Laki-Laki, Kolestrol normal, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29498;4
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29453,07;4
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29411,92;4
+4;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29248,56;4
+5;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29232,94;4
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29126,13;4
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28877,75;4
+4;Hipertensi tingkat 1, Perempuan, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28553,84;4
+3;BMI_Obesitas, Aktif berkegiatan fisik, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28510,76;4
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28447,56;4
+3;BMI_Overweight, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28421;4
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Aktif berkegiatan fisik, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28413,84;4
+4;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27976,32;4
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27695,1;4
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27618,7;4
+4;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27210,08;4
+4;BMI_Overweight, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27179,46;4
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Aktif berkegiatan fisik, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27114,58;4
+3;BMI_Overweight, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27039;4
+4;BMI_Overweight, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27026,94;4
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26914,51;4
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26716,72;4
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26662,84;4
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Aktif berkegiatan fisik, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26631,29;4
+3;BMI_Overweight, Bukan perokok aktif, Kolestrol normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26406;4
+4;BMI_Overweight, Prahipertensi, Kolestrol normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26182,15;4
+3;Umur sekitar 55-63 tahun, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26071,71;4
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;25854,78;4
+3;Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;81838;2
+3;Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;79604;2
+4;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;78060,93;2
+4;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;75861,16;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;73689,3;2
+4;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;72036,92;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;70981,35;2
+4;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;70105,68;2
+3;Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;70022,36;2
+3;Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;67729,94;2
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;67278,15;2
+2;Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;66643;2
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;65430,54;2
+3;Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;63907;2
+4;Perempuan, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;63286,71;2
+4;Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62878,71;2
+2;Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;62337;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62275,2;2
+3;Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;62067;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62058,8;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62027,08;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;60239,6;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;59916,12;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;59571,22;2
+5;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57893,63;2
+5;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57603,13;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;55744,96;2
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;54415,06;2
+3;Perempuan, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;54351,6;2
+3;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;54286,68;2
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;54208,16;2
+3;Perempuan, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;54044,72;2
+4;Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;53745,4;2
+4;Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;52215,89;2
+4;Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;52146,16;2
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;52068,99;2
+3;Prahipertensi, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;52032,55;2
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;51715,74;2
+4;Prahipertensi, Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;50712,97;2
+3;Prahipertensi, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;50635,72;2
+3;Perempuan, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;49530,38;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;49432,28;2
+3;Perempuan, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49258,86;2
+4;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49255,02;2
+6;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;47576,27;2
+6;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;47323,77;2
+4;Prahipertensi, Perempuan, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;47130,35;2
+4;Prahipertensi, Perempuan, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;46855,44;2
+2;Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;46696;2
+2;Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;43546;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;43127,58;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;42833,22;2
+4;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;42531,2;2
+4;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;41958,94;2
+4;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40562,04;2
+5;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;40226,23;2
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39948,8;2
+5;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;39248,98;2
+5;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;39065,51;2
+5;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;39053,42;2
+4;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39010,04;2
+3;Umur sekitar 51-58 tahun, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38968,76;2
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38651,91;2
+4;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38473,15;2
+4;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38377,03;2
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37851,08;2
+4;Laki-Laki, Prahipertensi, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37813,9;2
+4;BMI_Obesitas, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37761,79;2
+3;Umur sekitar 51-58 tahun, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;37657,52;2
+3;Umur sekitar 51-58 tahun, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37583,13;2
+5;Prahipertensi, Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;37341,03;2
+5;Prahipertensi, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;37189,01;2
+5;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;37005,88;2
+5;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36877,4;2
+4;Laki-Laki, Prahipertensi, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36734,97;2
+5;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36714,47;2
+3;Umur sekitar 51-58 tahun, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;36686,06;2
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36366,56;2
+4;BMI_Obesitas, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36345,58;2
+3;Hipertensi tingkat 1, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36070,96;2
+5;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35671,08;2
+3;Hipertensi tingkat 1, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;34786,81;2
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34657,4;2
+4;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34593,84;2
+5;BMI_Obesitas, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34389,31;2
+5;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34387,73;2
+5;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34346,05;2
+4;BMI_Obesitas, Perempuan, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34096,07;2
+4;BMI_Obesitas, Perempuan, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33838,48;2
+5;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33751,2;2
+4;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33637,52;2
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;33604,81;2
+5;BMI_Obesitas, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33424,24;2
+4;BMI_Obesitas, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33349,72;2
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33262,96;2
+5;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32757,11;2
+4;BMI_Obesitas, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32217,4;2
+4;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;32118,76;2
+3;Umur sekitar 55-63 tahun, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;32044,55;2
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31963;2
+4;Laki-Laki, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31879,52;2
+4;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31829,7;2
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31748,75;2
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31552,3;2
+3;BMI_Obesitas, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31487,48;2
+3;Umur sekitar 55-63 tahun, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;31399,83;2
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31380,88;2
+5;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31351,17;2
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31319,4;2
+4;Hipertensi tingkat 1, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31276,81;2
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31211,56;2
+5;BMI_Obesitas, Perempuan, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30943,42;2
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30900,79;2
+4;Hipertensi tingkat 1, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30869,72;2
+4;Laki-Laki, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30861,64;2
+5;BMI_Obesitas, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30774,27;2
+4;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30639,04;2
+4;Laki-Laki, Bukan perokok aktif, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30368;2
+4;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30340,4;2
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30273,44;2
+5;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30242,4;2
+3;Laki-Laki, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30232;2
+5;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30108,24;2
+6;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30061,28;2
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29951;2
+4;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29808;2
+4;Hipertensi tingkat 1, Kolestrol normal, Bukan perokok aktif, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29782,49;2
+4;Laki-Laki, Bukan perokok aktif, Kolestrol normal, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29781;2
+3;BMI_Obesitas, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29754,08;2
+4;Hipertensi tingkat 1, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29707,05;2
+3;BMI_Obesitas, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29515,56;2
+4;BMI_Obesitas, Prahipertensi, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29372,42;2
+5;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29341;2
+4;Hipertensi tingkat 1, Perempuan, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29312,88;2
+3;Laki-Laki, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29226;2
+6;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29187,6;2
+4;Hipertensi tingkat 1, Perempuan, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29150,43;2
+4;Umur sekitar 55-63 tahun, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29090,94;2
+4;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Glukosa normal;berpotensi tinggi memiliki penyakit kardiovaskular;29033,8;2
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29000,06;2
+6;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28935,67;2
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28931,64;2
+6;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28754,15;2
+3;Laki-Laki, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28749;2
+3;BMI_Obesitas, Glukosa normal, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28711,44;2
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28206,82;2
+6;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28158;2
+6;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28013,56;2
+6;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28006,82;2
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27970,51;2
+4;BMI_Overweight, Prahipertensi, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27583,03;2
+6;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27434,5;2
+4;BMI_Overweight, Prahipertensi, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26567,25;2
+6;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26294,08;2
+6;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26237,02;2
+5;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26226,52;2
+4;BMI_Overweight, Bukan perokok aktif, Kolestrol normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26036;2
+4;Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;78677,69;1
+4;Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;78128;1
+4;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;75531,85;1
+5;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;74419,72;1
+4;Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;72601,32;1
+5;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;69394,14;1
+5;Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;68731,2;1
+4;Perempuan, Prahipertensi, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;68182,34;1
+5;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;68020,36;1
+4;Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;66344,85;1
+3;Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;65385;1
+4;Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64341,28;1
+4;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64235,18;1
+6;Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;64116,69;1
+3;Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62697;1
+5;Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;62219,08;1
+5;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;61400,82;1
+3;Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;61185;1
+4;Kolestrol normal, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;61056;1
+5;Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;59868,45;1
+4;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;59003,04;1
+5;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;58931,16;1
+3;Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57120,98;1
+6;Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;57038,22;1
+5;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;56278,6;1
+5;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;55992,87;1
+4;Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;54515,64;1
+4;Prahipertensi, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;53975,91;1
+6;Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;53641,16;1
+4;Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;53515,82;1
+4;Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;53149,88;1
+4;Prahipertensi, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;53144,35;1
+4;Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;52086,92;1
+5;Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;51183,36;1
+6;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;51175,97;1
+5;Prahipertensi, Kolestrol normal, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49913,58;1
+4;Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49721,1;1
+2;Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49656;1
+3;Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;49632;1
+2;Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;49266;1
+6;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;49229,09;1
+4;Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;49120,58;1
+5;Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;48814,8;1
+4;Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;48796,38;1
+4;Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;47810,36;1
+7;Perempuan, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;46872,54;1
+3;Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;46490,48;1
+5;Prahipertensi, Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;46397,51;1
+3;Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;46053,42;1
+3;Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;45226,08;1
+3;Perempuan, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;43148,4;1
+3;Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;42649,02;1
+5;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;42322,19;1
+4;Umur sekitar 51-58 tahun, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42201,32;1
+4;Umur sekitar 51-58 tahun, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;42200,79;1
+5;Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;42128,1;1
+5;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;41343,1;1
+5;Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;41088,93;1
+5;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;40899,29;1
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;40178,33;1
+5;Prahipertensi, Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;39293,96;1
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;39257,43;1
+6;Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;38713,22;1
+4;BMI_Obesitas, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38646,14;1
+6;Prahipertensi, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;38355,57;1
+5;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;38211,8;1
+5;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37905,78;1
+5;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37905,15;1
+4;Laki-Laki, Prahipertensi, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37350,75;1
+5;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;37116,64;1
+4;Umur sekitar 51-58 tahun, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;36965,15;1
+6;Prahipertensi, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;36865,22;1
+4;Umur sekitar 51-58 tahun, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36761,01;1
+4;BMI_Obesitas, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;36711,54;1
+3;Umur sekitar 51-58 tahun, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;36389,35;1
+6;Prahipertensi, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;36358,15;1
+4;Umur sekitar 51-58 tahun, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;35795,43;1
+5;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35740,34;1
+5;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35536,68;1
+5;BMI_Obesitas, Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35422,29;1
+4;Umur sekitar 51-58 tahun, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;35209,65;1
+3;Umur sekitar 51-58 tahun, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35087,66;1
+6;Umur sekitar 51-58 tahun, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;35021,84;1
+5;Laki-Laki, Prahipertensi, Kolestrol normal, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34876,98;1
+4;BMI_Obesitas, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34801,6;1
+5;BMI_Obesitas, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34763,3;1
+4;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34715,03;1
+5;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34390,56;1
+4;Hipertensi tingkat 1, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;34357,03;1
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34322,82;1
+4;Hipertensi tingkat 1, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34295,72;1
+5;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34153,19;1
+4;BMI_Obesitas, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;34129,08;1
+3;Hipertensi tingkat 1, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;34066,98;1
+6;Umur sekitar 51-58 tahun, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33952,93;1
+4;Umur sekitar 51-58 tahun, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;33950,68;1
+4;Hipertensi tingkat 1, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;33864,22;1
+5;BMI_Obesitas, Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;33477,34;1
+5;Umur sekitar 51-58 tahun, Kolestrol normal, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;33027,58;1
+5;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32902,24;1
+6;BMI_Obesitas, Prahipertensi, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32644,42;1
+3;Umur sekitar 55-63 tahun, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;32220,78;1
+6;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32098,11;1
+5;BMI_Obesitas, Perempuan, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;32076,72;1
+5;Laki-Laki, Prahipertensi, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31994,21;1
+4;BMI_Obesitas, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;31785,63;1
+4;Laki-Laki, Aktif berkegiatan fisik, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31732,12;1
+5;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31725,94;1
+5;Umur sekitar 51-58 tahun, Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;31459,84;1
+5;BMI_Obesitas, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31408,08;1
+6;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31259,04;1
+5;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31142,5;1
+4;Laki-Laki, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;31073;1
+4;Hipertensi tingkat 1, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30941,61;1
+6;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30917,76;1
+5;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30813,28;1
+4;Umur sekitar 55-63 tahun, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30704,19;1
+6;BMI_Obesitas, Perempuan, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30467,34;1
+6;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;30451,6;1
+5;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30409,2;1
+6;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30392,24;1
+4;Umur sekitar 55-63 tahun, Aktif berkegiatan fisik, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30387,63;1
+4;Umur sekitar 55-63 tahun, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30361,54;1
+5;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;30333,86;1
+4;BMI_Obesitas, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;30150,4;1
+4;Umur sekitar 55-63 tahun, Kolestrol normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29997,01;1
+6;Laki-Laki, Prahipertensi, Bukan perokok aktif, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29981,54;1
+4;Umur sekitar 55-63 tahun, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29507,19;1
+5;Umur sekitar 51-58 tahun, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29457,3;1
+4;BMI_Obesitas, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29433,86;1
+5;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;29399,25;1
+5;Laki-Laki, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29327,28;1
+5;Umur sekitar 51-58 tahun, Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29186,68;1
+6;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29139,75;1
+5;Hipertensi tingkat 1, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;29098,7;1
+6;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;29066,71;1
+5;Hipertensi tingkat 1, Aktif berkegiatan fisik, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28882,17;1
+4;BMI_Obesitas, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28839,72;1
+5;Laki-Laki, Bukan perokok aktif, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28825;1
+5;Hipertensi tingkat 1, Perempuan, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28786,52;1
+6;Laki-Laki, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28754,65;1
+6;BMI_Obesitas, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28663,84;1
+4;Laki-Laki, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28661,16;1
+7;Umur sekitar 51-58 tahun, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28620,24;1
+6;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28588,22;1
+6;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28567,5;1
+5;BMI_Obesitas, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;berpotensi tinggi memiliki penyakit kardiovaskular;28536;1
+7;Prahipertensi, Perempuan, Kolestrol normal, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;berpotensi tinggi memiliki penyakit kardiovaskular;28510,79;1
+4;BMI_Overweight, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;28123,46;1
+4;Laki-Laki, Kolestrol normal, Bukan peminum alkohol, Glukosa normal;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27804;1
+7;Umur sekitar 51-58 tahun, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27672,71;1
+6;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27666,42;1
+4;Umur sekitar 55-63 tahun, Prahipertensi, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27392,24;1
+5;BMI_Obesitas, Perempuan, Prahipertensi, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27342,46;1
+6;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;27334;1
+4;Umur sekitar 55-63 tahun, Perempuan, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26974,16;1
+5;Laki-Laki, Aktif berkegiatan fisik, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26935;1
+7;BMI_Obesitas, Prahipertensi, Aktif berkegiatan fisik, Kolestrol normal, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26762,5;1
+4;BMI_Overweight, Bukan perokok aktif, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26645;1
+6;BMI_Obesitas, Perempuan, Aktif berkegiatan fisik, Kolestrol normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26454,02;1
+5;BMI_Overweight, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26197,85;1
+5;BMI_Overweight, Prahipertensi, Glukosa normal, Bukan perokok aktif, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26196,35;1
+6;Laki-Laki, Prahipertensi, Bukan perokok aktif, Aktif berkegiatan fisik, Glukosa normal, Bukan peminum alkohol;tidak berpotensi tinggi memiliki penyakit kardiovaskular;26162,83;1
+7;Umur sekitar 51-58 tahun, Perempuan, Prahipertensi, Kolestrol normal, Glukosa normal, Bukan peminum alkohol, Bukan perokok aktif;tidak berpotensi tinggi memiliki penyakit kardiovaskular;25964,36;1

@@ -7,7 +7,7 @@ from preprocessing import bentuk_data_transaksi_medis as trans
 from preprocessing import tambah_iu as upd_iu
 from preprocessing import iu, eu
 import hurim
-from prediksi import buat_df, prediksi_kardio, pred_y, ket, hasil_metric,get_it_u, get_it_bp, get_it_bmi
+from prediksi import buat_df, prediksi_kardio, pred_y, ket, hasil_metric,get_it_u, get_it_bp, get_it_bmi, pred_sken_2, konvert, hitung_conf
 import base64
 
 def app():
@@ -53,11 +53,11 @@ def app():
   # Ekstraksi Pola
   @st.cache(suppress_st_warning=True)
   def ekstraksiPola(data_train, min_utilitas, max_support, data_tes, sort_):
-    data_train_kardio = data_train[data_train['Diagnosis']=='berpotensi tinggi memiliki penyakit kardiovaskular'].copy().drop(columns=['Diagnosis'])
+    data_train_kardio = data_train[data_train['Diagnosis']=='berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Diagnosis'])
     data_train_kardio = data_train_kardio[['Gejala']]
     data_train_kardio['Gejala'] = data_train_kardio['Gejala'].apply(lambda u: upd_iu(u, iu))
 
-    data_train_non_kardio = data_train[data_train['Diagnosis']=='Tidak berpotensi tinggi memiliki penyakit kardiovaskular'].copy().drop(columns=['Diagnosis'])
+    data_train_non_kardio = data_train[data_train['Diagnosis']=='Tidak berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Diagnosis'])
     data_train_non_kardio = data_train_non_kardio[['Gejala']]
     data_train_non_kardio['Gejala'] = data_train_non_kardio['Gejala'].apply(lambda u: upd_iu(u, iu))
 
@@ -66,8 +66,8 @@ def app():
 
     hasilnya_kardio = problem_kardio.solve_df()
     hasilnya_non_kardio = problem_non_kardio.solve_df()
-    hasil_kardio = pd.DataFrame({'HURI': hasilnya_kardio, 'Diagnosis': ['berpotensi tinggi memiliki penyakit kardiovaskular']*len(hasilnya_kardio)})
-    hasil_non_kardio = pd.DataFrame({'HURI': hasilnya_non_kardio, 'Diagnosis': ['tidak berpotensi tinggi memiliki penyakit kardiovaskular']*len(hasilnya_non_kardio)})
+    hasil_kardio = pd.DataFrame({'HURI': hasilnya_kardio, 'Diagnosis': ['berpotensi memiliki penyakit kardiovaskular']*len(hasilnya_kardio)})
+    hasil_non_kardio = pd.DataFrame({'HURI': hasilnya_non_kardio, 'Diagnosis': ['tidak berpotensi memiliki penyakit kardiovaskular']*len(hasilnya_non_kardio)})
     hasil_hurim = pd.concat([hasil_kardio, hasil_non_kardio])
     hasil_hurim = buat_df(hasil_hurim, sorting=sort_)
     
@@ -97,22 +97,24 @@ def app():
       jumlah_n = st.sidebar.selectbox('Jumlah N untuk fuzzifikasi umur', [8, 10])
 
   with st.sidebar.header('3. Parameter HURIM'):
-      min_utill = st.sidebar.slider('Batas Minimum Utilitas', 0.05, 0.5, 0.09, 0.01)
-      max_supp = st.sidebar.slider('Batas Maksimum Support', 0.05, 0.5, 0.4, 0.01)
-      sort_HURI = st.sidebar.selectbox('Pengurutan HURI', ['Utilitas','Support'])
-      if sort_HURI is 'Utilitas':
-        sorting_HURI = ['Utilitas','Support']
-      else:
-        sorting_HURI = ['Support','Utilitas']
+      min_utill = st.sidebar.slider('Batas Minimum Utilitas', 0.05, 0.5, 0.1, 0.01)
+      max_supp = st.sidebar.slider('Batas Maksimum Support', 0.05, 0.5, 0.2, 0.01)
+#       sort_HURI = st.sidebar.selectbox('Pengurutan HURI', ['Utilitas','Support'])
+#       if sort_HURI is 'Utilitas':
+#         sorting_HURI = ['Utilitas','Support']
+#       else:
+#         sorting_HURI = ['Support','Utilitas']
+  sorting_HURI = ['Utilitas','Support']
 
   #---------------------------------#
   # Main panel
 
   # Displays the dataset
   st.subheader('1. Dataset')
-
+  
+  # Jika upload data
   if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file, sep=';')
+    df = pd.read_csv(uploaded_file, sep=';')    
     df.drop(columns=['id'], inplace=True)
     st.markdown('Dataset Rekam Medis Awal')
     st.dataframe(df.head(10))        
@@ -121,17 +123,19 @@ def app():
     
     st.subheader('3. Ekstraksi Pola')
     st.dataframe(hasil_hurim)
+    
+    # Form deteksi
     with st.form('Form Deteksi Penyakit Kardiovaskular'):
-      st.markdown("<h1 style='text-align: center; color:#f42563;'><b>Form Deteksi Penyakit Kardiovaskular</b></h1>", unsafe_allow_html=True) ##0E6251
-
+      st.markdown("<h1 style='text-align: center; color:#f42563;'><b>Form Deteksi Penyakit Kardiovaskular</b></h1>", unsafe_allow_html=True)
       col1, col2, col3 = st.beta_columns(3)
-
       with col1:
-        Umur = st.selectbox('Pilih kategori umur anda pada', options=sorted(u_))#['Umur kurang dari 34 tahun', 'Umur sekitar 36-43 tahun', 'Umur sekitar 46-53 tahun', 'Umur sekitar 41-48 tahun', 'Umur sekitar 51-58 tahun', 'Umur sekitar 55-63 tahun', 'Umur lebih dari 60 tahun'])
-        Kategori_BMI = st.selectbox('Pilih kategori BMI anda', options=['BMI_Kurus', 'BMI_Normal', 'BMI_Overweight', 'BMI_Obesitas', 'BMI_Obesitas_II'])      
-        Kategori_Tekanan_Darah = st.selectbox('Pilih kategori tekanan darah anda', options=['Tekanan darah rendah', 'Tekanan darah normal', 'Prahipertensi', 'Hipertensi tingkat 1', 'Hipertensi tingkat 2',  'Hipertensi krisis'])
-      with col2:
+        U = st.number_input('Masukkan umur anda:', step=0.1, min_value=0.0, format='%.f') #'{:.2f}'
         Jenis_Kelamin = st.selectbox('Pilih jenis kelamin anda', options=['Laki-Laki', 'Perempuan'])
+        M = st.number_input('Masukkan massa tubuh anda:', step=0.1, min_value=0.0, format='%.f')
+        T = st.number_input('Masukkan tinggi tubuh anda:', step=0.1, min_value=0.0, format='%.f') # format='%.f',
+      with col2:
+        TS = st.number_input('Masukkan tekanan sistol anda:', step=1, min_value=0) # format='%d',
+        TD = st.number_input('Masukkan tekanan diastol anda:', step=1, min_value=0)          
         Kadar_Kolestrol = st.selectbox('Pilih kategori kadar kolesterol anda', options=['Kolestrol normal', 'Kolestrol jauh diatas normal', 'Kolestrol diatas normal'])
         Kadar_Glukosa = st.selectbox('Pilih kategori kadar glukosa anda', options=['Glukosa normal', 'Glukosa diatas normal', 'Glukosa jauh diatas normal'])
       with col3:
@@ -140,20 +144,47 @@ def app():
         Status_Kegiatan_Fisik = st.selectbox('Pilih, apakah anda aktif melakukan kegiatan fisik atau tidak', options=['Aktif berkegiatan fisik', 'Tidak aktif berkegiatan fisik']) 
 
       submitted = st.form_submit_button('Diagnosis')
-      
-      if submitted:
-        st.write('Gejala Anda:', gejala)
-        st.write('Hasil deteksi:')
-        res = prediksi_kardio(gejala, hasil_hurim)
-        metrik = ['Akurasi', 'Presisi', 'Recall', 'F1-Score']
-        nilai = [acc, prec, rec, f1]
-        indeks = nilai.index(max(nilai))        
-        msg = '{} ({} {}%)'.format(res[3], metrik[indeks], round(max(nilai)*100,2))
-        if res[3] == 'berpotensi tinggi memiliki penyakit kardiovaskular':
-          st.error(msg)
-        else:
-          st.success(msg)
 
+      num_val = [U, M, T, TS, TD]
+      if all([x>0 for x in num_val]):
+        Umur = get_it_u(U, jumlah_n)
+        Kategori_BMI = get_it_bmi(M,T)
+        Kategori_Tekanan_Darah = get_it_bp(TS,TD)
+
+        gejala = ', '.join([Umur, Jenis_Kelamin, Kategori_BMI, Kategori_Tekanan_Darah, #Umur, Kategori_BMI, Kategori_Tekanan_Darah, 
+                            Kadar_Kolestrol, Kadar_Glukosa, Status_Perokok, 
+                            Status_Peminum_Alkohol, Status_Kegiatan_Fisik])
+
+        # Untuk mulai deteksi
+        if submitted:
+          st.write('Hasil deteksi:')
+          data_Rq = hasil_hurim
+          data_Rq_plus = data_Rq[data_Rq['Diagnosis'] == 'berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Panjang HURI']).sort_values(by=['Utilitas'], ascending=False)
+          data_Rq_plus['Gejala'] = data_Rq_plus['HURI'].apply(lambda u: konvert(u, iu))
+          data_Rq_plus = data_Rq_plus[['Gejala', 'Diagnosis', 'Utilitas', 'Support']]
+          data_Rq_min = data_Rq[data_Rq['Diagnosis'] == 'tidak berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Panjang HURI']).sort_values(by=['Utilitas'], ascending=False)
+          data_Rq_min['Gejala'] = data_Rq_min['HURI'].apply(lambda u: konvert(u, iu))
+          data_Rq_min = data_Rq_min[['Gejala', 'Diagnosis', 'Utilitas', 'Support']]
+          Diagnosis_, HURI_, Util_, Sup_, Confidence_, df_pred_ =  pred_sken_2(max_supp, min_utill, data_Rq_plus, data_Rq_min, gejala, eu)
+
+#             msg = '{} (Presisi {}%)'.format(res[3], 72.86)
+#             msg = '{} (Confidence: {})'.format(Diagnosis_, round(Confidence_,2))
+          if Diagnosis_ == 'berpotensi memiliki penyakit kardiovaskular':
+            msg = '{} (Confidence: {})'.format(Diagnosis_, round(Confidence_,2))
+            st.error(msg)
+          else:
+            msg = '{} '.format(Diagnosis_)
+            st.success(msg)
+
+      # Jika ada field yang belum terisi
+      else:
+        var_num_ = ['Umur', 'Massa Tubuh', 'Tinggi Tubuh', 'Tekanan Sistol', 'Tekanan Diastol']
+        index_0 = [i for i in range(len(num_val)) if num_val[i]<=0]
+        field_0 = [var_num_[i] for i in index_0]
+        field_0_ = ', '.join(field_0)
+        if submitted:
+          st.write('Silakan isi field berikut dengan benar terlebih dahulu:', field_0_)          
+  # Jika menggunakan data sistem          
   else:
     st.info('Silakan pilih data (Upload / Gunakan Data Sistem)')
     if st.checkbox('Klik untuk menggunakan data dari Sistem'):
@@ -168,20 +199,15 @@ def app():
       st.subheader('3. Ekstraksi Pola')
       st.dataframe(hasil_hurim)
       
-      with st.form('Form Deteksi Penyakit Kardiovaskular'):
-        
-        st.markdown("<h1 style='text-align: center; color:#f42563;'><b>Form Deteksi Penyakit Kardiovaskular</b></h1>", unsafe_allow_html=True)
-      
+      # Form deteksi
+      with st.form('Form Deteksi Penyakit Kardiovaskular'):        
+        st.markdown("<h1 style='text-align: center; color:#f42563;'><b>Form Deteksi Penyakit Kardiovaskular</b></h1>", unsafe_allow_html=True)      
         col1, col2, col3 = st.beta_columns(3)
-
         with col1:
           U = st.number_input('Masukkan umur anda:', step=0.1, min_value=0.0, format='%.f') #'{:.2f}'
           Jenis_Kelamin = st.selectbox('Pilih jenis kelamin anda', options=['Laki-Laki', 'Perempuan'])
           M = st.number_input('Masukkan massa tubuh anda:', step=0.1, min_value=0.0, format='%.f')
           T = st.number_input('Masukkan tinggi tubuh anda:', step=0.1, min_value=0.0, format='%.f') # format='%.f',
-#           Umur = st.selectbox('Pilih kategori umur anda pada', options=sorted(u_))#['Umur kurang dari 34 tahun', 'Umur sekitar 36-43 tahun', 'Umur sekitar 46-53 tahun', 'Umur sekitar 41-48 tahun', 'Umur sekitar 51-58 tahun', 'Umur sekitar 55-63 tahun', 'Umur lebih dari 60 tahun'])
-#           Kategori_BMI = st.selectbox('Pilih kategori BMI anda', options=['BMI_Kurus', 'BMI_Normal', 'BMI_Overweight', 'BMI_Obesitas', 'BMI_Obesitas_II'])      
-#           Kategori_Tekanan_Darah = st.selectbox('Pilih kategori tekanan darah anda', options=['Tekanan darah rendah', 'Tekanan darah normal', 'Prahipertensi', 'Hipertensi tingkat 1', 'Hipertensi tingkat 2',  'Hipertensi krisis'])
         with col2:
           TS = st.number_input('Masukkan tekanan sistol anda:', step=1, min_value=0) # format='%d',
           TD = st.number_input('Masukkan tekanan diastol anda:', step=1, min_value=0)          
@@ -204,16 +230,32 @@ def app():
                               Kadar_Kolestrol, Kadar_Glukosa, Status_Perokok, 
                               Status_Peminum_Alkohol, Status_Kegiatan_Fisik])
 
-        if submitted:
-#           st.write(Umur, Kategori_BMI, Kategori_Tekanan_Darah)
-          st.write('Gejala Anda:', gejala)
-          st.write('Hasil deteksi:')
-          res = prediksi_kardio(gejala, hasil_hurim)
-          metrik = ['Akurasi', 'Presisi', 'Recall', 'F1-Score']
-          nilai = [acc, prec, rec, f1]
-          indeks = nilai.index(max(nilai))        
-          msg = '{} ({} {}%)'.format(res[3], metrik[indeks], round(max(nilai)*100,2))
-          if res[3] == 'berpotensi tinggi memiliki penyakit kardiovaskular':
-            st.error(msg)
-          else:
-            st.success(msg)
+          # Untuk mulai deteksi
+          if submitted:
+            st.write('Hasil deteksi:')
+            data_Rq = hasil_hurim
+            data_Rq_plus = data_Rq[data_Rq['Diagnosis'] == 'berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Panjang HURI']).sort_values(by=['Utilitas'], ascending=False)
+            data_Rq_plus['Gejala'] = data_Rq_plus['HURI'].apply(lambda u: konvert(u, iu))
+            data_Rq_plus = data_Rq_plus[['Gejala', 'Diagnosis', 'Utilitas', 'Support']]
+            data_Rq_min = data_Rq[data_Rq['Diagnosis'] == 'tidak berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Panjang HURI']).sort_values(by=['Utilitas'], ascending=False)
+            data_Rq_min['Gejala'] = data_Rq_min['HURI'].apply(lambda u: konvert(u, iu))
+            data_Rq_min = data_Rq_min[['Gejala', 'Diagnosis', 'Utilitas', 'Support']]
+            Diagnosis_, HURI_, Util_, Sup_, Confidence_, df_pred_ =  pred_sken_2(max_supp, min_utill, data_Rq_plus, data_Rq_min, gejala, eu)
+
+#             msg = '{} (Presisi {}%)'.format(res[3], 72.86)
+#             msg = '{} (Confidence: {})'.format(Diagnosis_, round(Confidence_,2))
+            if Diagnosis_ == 'berpotensi memiliki penyakit kardiovaskular':
+              msg = '{} (Confidence: {})'.format(Diagnosis_, round(Confidence_,2))
+              st.error(msg)
+            else:
+              msg = '{} '.format(Diagnosis_)
+              st.success(msg)
+              
+        # Jika ada field yang belum terisi
+        else:
+          var_num_ = ['Umur', 'Massa Tubuh', 'Tinggi Tubuh', 'Tekanan Sistol', 'Tekanan Diastol']
+          index_0 = [i for i in range(len(num_val)) if num_val[i]<=0]
+          field_0 = [var_num_[i] for i in index_0]
+          field_0_ = ', '.join(field_0)
+          if submitted:
+            st.write('Silakan isi field berikut dengan benar terlebih dahulu:', field_0_)
