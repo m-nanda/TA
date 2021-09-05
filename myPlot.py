@@ -71,42 +71,42 @@ def mf (x, y, kategori, t_tengah, judul, kode, xlbl, titik,
       Line plot himpunan fuzzy.
   '''
 
-	plt.close()	
-	sns.set_style('white')
-	warna = ['r', 'g', 'b','deeppink', 'k', 'm', 'c', 'darkorange', 'gray', 'chocolate']*10
-	plt.figure(figsize=(10,6))	
-	if y_garis_bawah == [1]:
-		y_garis_bawah=[1]*(len(titik)-2)
-	if y_garis_atas == [0.56]:
-		y_garis_atas=[0.56]*(len(titik)-2)
-	if pisah_garis == [False]:
-		pisah_garis = [False]*(len(titik)-2)
-	if y_text == [0.5]:
-		y_text = [0.5]*(len(kategori))
-	if rot == [0]:
-		rot = [0]*(len(kategori))	
-	for i in range(len(kategori)):
-		plt.plot(x, y[i], warna[i], linewidth=2)
-		plt.text(t_tengah[i], y_text[i], kategori[i], fontsize=18.5, rotation=rot[i]) #-len(kategori[i])/20
-	plt.title(judul, fontsize=18)
-	plt.ylim(0,1.05)
-	plt.xlim(x[0],x[-1])
-	for u in range(1, len(titik)-1):        
-		if pisah_garis[u-1] is False:
-			garis(titik[u], y_garis_bawah[u-1])
-		else:
-			garis_atas(titik[u], y_garis_atas[u-1])
-			garis(titik[u], y_garis_bawah[u-1])			
-	plt.tick_params(which='major', axis='both', labelsize=14)
-	plt.tick_params(axis='x', rotation=rot_xtick) #baru
-	plt.xticks(titik)
-	if lang=='id':
-		plt.ylabel('Derajat Keanggotaan', fontsize=16)
-	else:
-		plt.ylabel('Degree of Membership', fontsize=16)
-	plt.xlabel(xlbl, fontsize=16)	
-	plt.savefig(path+judul+kode+'.jpg', dpi=300)
-#     plt.savefig(path_2+judul+kode+'.jpg', dpi=300)
+  plt.close()	
+  sns.set_style('white')
+  warna = ['r', 'g', 'b','deeppink', 'k', 'm', 'c', 'darkorange', 'gray', 'chocolate']*10
+  plt.figure(figsize=(10,6))	
+  if y_garis_bawah == [1]:
+    y_garis_bawah=[1]*(len(titik)-2)
+  if y_garis_atas == [0.56]:
+    y_garis_atas=[0.56]*(len(titik)-2)
+  if pisah_garis == [False]:
+    pisah_garis = [False]*(len(titik)-2)
+  if y_text == [0.5]:
+    y_text = [0.5]*(len(kategori))
+  if rot == [0]:
+    rot = [0]*(len(kategori))	
+  for i in range(len(kategori)):
+    plt.plot(x, y[i], warna[i], linewidth=2)
+    plt.text(t_tengah[i], y_text[i], kategori[i], fontsize=18.5, rotation=rot[i]) #-len(kategori[i])/20
+  plt.title(judul, fontsize=18)
+  plt.ylim(0,1.05)
+  plt.xlim(x[0],x[-1])
+  for u in range(1, len(titik)-1):        
+    if pisah_garis[u-1] is False:
+      garis(titik[u], y_garis_bawah[u-1])
+    else:
+      garis_atas(titik[u], y_garis_atas[u-1])
+      garis(titik[u], y_garis_bawah[u-1])			
+  plt.tick_params(which='major', axis='both', labelsize=14)
+  plt.tick_params(axis='x', rotation=rot_xtick) #baru
+  plt.xticks(titik)
+  if lang=='id':
+    plt.ylabel('Derajat Keanggotaan', fontsize=16)
+  else:
+    plt.ylabel('Degree of Membership', fontsize=16)
+  plt.xlabel(xlbl, fontsize=16)	
+  plt.savefig(path+judul+kode+'.jpg', dpi=300)
+  #     plt.savefig(path_2+judul+kode+'.jpg', dpi=300)
 
 def korelasi(judul, datanya, warna, kode='', simpan=True, path=path_1):
   '''
@@ -123,17 +123,17 @@ def korelasi(judul, datanya, warna, kode='', simpan=True, path=path_1):
   Output:
       Plot heatmap dari data yang diberikan.
   '''
-	
-	plt.close()
-	plt.rcParams['figure.figsize'] = (16,10)	
-	g = sns.heatmap(datanya, annot=True, linewidths=.5, cmap=warna, center=0, vmin=-1, vmax=1, annot_kws={"size": 16})
-	g.set_xticklabels(g.get_xmajorticklabels(), fontsize = 16, rotation=45, ha='right')
-	g.set_yticklabels(g.get_ymajorticklabels(), fontsize = 16, rotation=45)
-	cbar = g.collections[0].colorbar    
-	cbar.ax.tick_params(labelsize=18)
-	plt.title(judul, fontsize = 30)
-	plt.tight_layout()
-	plt.savefig(path_1 +judul +kode +'.jpg', dpi=300)
+
+  plt.close()
+  plt.rcParams['figure.figsize'] = (16,10)	
+  g = sns.heatmap(datanya, annot=True, linewidths=.5, cmap=warna, center=0, vmin=-1, vmax=1, annot_kws={"size": 16})
+  g.set_xticklabels(g.get_xmajorticklabels(), fontsize = 16, rotation=45, ha='right')
+  g.set_yticklabels(g.get_ymajorticklabels(), fontsize = 16, rotation=45)
+  cbar = g.collections[0].colorbar    
+  cbar.ax.tick_params(labelsize=18)
+  plt.title(judul, fontsize = 30)
+  plt.tight_layout()
+  plt.savefig(path_1 +judul +kode +'.jpg', dpi=300)
     # plt.savefig(path_2 +'\\' +judul +'.png', dpi=300)
-	plt.show()
-	plt.close()
+  plt.show()
+  plt.close()
