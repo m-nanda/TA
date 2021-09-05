@@ -10,67 +10,67 @@ path_2 = ''
 
 
 def garis(x, y):
-	'''
-	Fungsi ini untuk membuat plot garis sebagai penanda pada 
-	koordinat X dari Y=0 sampai Y=y.
-	
-	Parameter:
-		x = koordinat X
-		y = batas maximum tinggi garis yang diinginkan
-	
-	Output:
-	    Plot garis putus-putus sebagai penanda koordinat X.
-	'''
-	plt.plot([x, x], [0, y], 'k--')
+  '''
+  Fungsi ini untuk membuat plot garis sebagai penanda pada 
+  koordinat X dari Y=0 sampai Y=y.
+
+  Parameter:
+    x = koordinat X
+    y = batas maximum tinggi garis yang diinginkan
+
+  Output:
+      Plot garis putus-putus sebagai penanda koordinat X.
+  '''
+  plt.plot([x, x], [0, y], 'k--')
 	
 def garis_atas(x, y):
-	'''
-	Fungsi ini untuk membuat plot garis sebagai penanda pada koordinat X
-	dari Y=y sampai Y=1.
-	
-	Parameter:
-		x = koordinat X
-		y = batas minimum tinggi garis yang diinginkan
-	
-	Output:
-	    Plot garis putus-putus sebagai penanda koordinat X.
-	'''
-	plt.plot([x, x], [y, 1], 'k--')  
+  '''
+  Fungsi ini untuk membuat plot garis sebagai penanda pada koordinat X
+  dari Y=y sampai Y=1.
+
+  Parameter:
+    x = koordinat X
+    y = batas minimum tinggi garis yang diinginkan
+
+  Output:
+      Plot garis putus-putus sebagai penanda koordinat X.
+  '''
+  plt.plot([x, x], [y, 1], 'k--')  
 	
 def mf (x, y, kategori, t_tengah, judul, kode, xlbl, titik,
-		y_garis_bawah=[1], y_garis_atas=[0.56], y_text=[0.5],
-		pisah_garis=[False], rot=[0], rot_xtick=0,
-		simpan=True, path=path_1):
-	'''
-	Fungsi ini untuk plot himpunan fuzzy dengan fungsi keanggotaan dan
-	range nilai yang diberikan.
-	
-	Parameter:
-		x: range nilai pada sb. X
-		y: list fungsi keanggotaan
-		kategori: kategori untuk setiap fungsi keanggotaan
-		t_tengah: koordinat X untuk setiap kategori
-		judul: judul plot dan sekaligus sebagai tambahan pada nama file jika disimpan
-		kode: tambahan kode untuk nama file jika ingin menyimpan hasil plot
-		xlbl: keterangan sumbu X
-		titik: kumpulan titik sebagai untuk membantu memperjelas fungsi keanggotaan
-		y_garis_bawah: untuk garis penanda titik, sebagai parameter Y untuk 
-					   fungsi `garis` (default)=[1])
-		y_garis_atas: untuk garis penanda titik, sebagai parameter Y untuk 
-					  fungsi `garis_atas` (default=[0.56])
-		y_text: koordinat Y pada setiap kategori dari fungsi keanggotaan yang diberikan
-				(default=[0.5])
-		pisah_garis: parameter boolean untuk memisahkan garis vertikal penanda koordinat X
-					 pada setiap titik (default=[False])
-		rot: untuk merotasi kategori (default=[0])
-		rot_xtick: untuk merotasi titik pada sb. X (default=0)
-		simpan: untuk menyimpan langsung hasil plot (default=False)
-		path: directory untuk menyimpan	hasil plot
-		
-	Output:
-	    Line plot himpunan fuzzy.
-	'''
-	
+    y_garis_bawah=[1], y_garis_atas=[0.56], y_text=[0.5],
+    pisah_garis=[False], rot=[0], rot_xtick=0,
+    simpan=True, path=path_1, lang='id'):
+  '''
+  Fungsi ini untuk plot himpunan fuzzy dengan fungsi keanggotaan dan
+  range nilai yang diberikan.
+
+  Parameter:
+    x: range nilai pada sb. X
+    y: list fungsi keanggotaan
+    kategori: kategori untuk setiap fungsi keanggotaan
+    t_tengah: koordinat X untuk setiap kategori
+    judul: judul plot dan sekaligus sebagai tambahan pada nama file jika disimpan
+    kode: tambahan kode untuk nama file jika ingin menyimpan hasil plot
+    xlbl: keterangan sumbu X
+    titik: kumpulan titik sebagai untuk membantu memperjelas fungsi keanggotaan
+    y_garis_bawah: untuk garis penanda titik, sebagai parameter Y untuk 
+             fungsi `garis` (default)=[1])
+    y_garis_atas: untuk garis penanda titik, sebagai parameter Y untuk 
+            fungsi `garis_atas` (default=[0.56])
+    y_text: koordinat Y pada setiap kategori dari fungsi keanggotaan yang diberikan
+        (default=[0.5])
+    pisah_garis: parameter boolean untuk memisahkan garis vertikal penanda koordinat X
+           pada setiap titik (default=[False])
+    rot: untuk merotasi kategori (default=[0])
+    rot_xtick: untuk merotasi titik pada sb. X (default=0)
+    simpan: untuk menyimpan langsung hasil plot (default=False)
+    path: directory untuk menyimpan	hasil plot
+
+  Output:
+      Line plot himpunan fuzzy.
+  '''
+
 	plt.close()	
 	sns.set_style('white')
 	warna = ['r', 'g', 'b','deeppink', 'k', 'm', 'c', 'darkorange', 'gray', 'chocolate']*10
@@ -100,26 +100,29 @@ def mf (x, y, kategori, t_tengah, judul, kode, xlbl, titik,
 	plt.tick_params(which='major', axis='both', labelsize=14)
 	plt.tick_params(axis='x', rotation=rot_xtick) #baru
 	plt.xticks(titik)
-	plt.ylabel('Derajat Keanggotaan', fontsize=16)
+	if lang=='id':
+		plt.ylabel('Derajat Keanggotaan', fontsize=16)
+	else:
+		plt.ylabel('Degree of Membership', fontsize=16)
 	plt.xlabel(xlbl, fontsize=16)	
 	plt.savefig(path+judul+kode+'.jpg', dpi=300)
 #     plt.savefig(path_2+judul+kode+'.jpg', dpi=300)
 
 def korelasi(judul, datanya, warna, kode='', simpan=True, path=path_1):
-	'''
-	Fungsi ini untuk membuat plot heatmap korelasi dari data yang diberikan.
-	
-	Parameter:
-		judul: judul untuk heatmap dan juga sebagai kode untuk nama file jika ingin disimpan langsung
-		datanya: sumber data yang ingin dibuat heatmapnya
-		warna: palette warna yang diinginkan untuk heatmap
-		kode: kode sebagai tambahan nama file jika ingin disimpan langsung
-		simpan: untuk menyimpan file (Default=False)
-		path: path/directory untuk menyimpan hasil heatmpat (Default='')
-		
-	Output:
-	    Plot heatmap dari data yang diberikan.
-	'''
+  '''
+  Fungsi ini untuk membuat plot heatmap korelasi dari data yang diberikan.
+
+  Parameter:
+    judul: judul untuk heatmap dan juga sebagai kode untuk nama file jika ingin disimpan langsung
+    datanya: sumber data yang ingin dibuat heatmapnya
+    warna: palette warna yang diinginkan untuk heatmap
+    kode: kode sebagai tambahan nama file jika ingin disimpan langsung
+    simpan: untuk menyimpan file (Default=False)
+    path: path/directory untuk menyimpan hasil heatmpat (Default='')
+
+  Output:
+      Plot heatmap dari data yang diberikan.
+  '''
 	
 	plt.close()
 	plt.rcParams['figure.figsize'] = (16,10)	
