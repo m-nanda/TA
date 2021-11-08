@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 def app():
     main_bg = "bg-6-dd.jpg"
