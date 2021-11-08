@@ -11,6 +11,21 @@ from prediksi import buat_df, prediksi_kardio, pred_y, ket, hasil_metric,get_it_
 import base64
 
 def app():
+
+  main_bg = "bg-6-dd.jpg"
+  main_bg_ext = "jpg"
+
+  st.markdown(
+      f"""
+      <style>
+      .reportview-container {{
+          background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
+      }}
+      </style>
+      """,
+      unsafe_allow_html=True
+  )
+  
   st.write("""  
   # Tab User
   Ini adalah bagian tab untuk User. Silakan mengisi kondisi anda yang sesuai, lalu klik tombol `Diagnosis` untuk mengetahui hasilnya.
