@@ -188,8 +188,7 @@ def app():
   else:
     st.info('Silakan pilih data (Upload / Gunakan Data Sistem)')
     if st.checkbox('Klik untuk menggunakan data dari Sistem'):
-  #     df = pd.read_csv('https://github.com/m-nanda/TA/blob/main/Data/cardio_train_ind.csv?raw=true', sep=';')
-      df = pd.read_csv('https://raw.githubusercontent.com/mns-037/tes/main/Data/cardio_train_ind.csv', sep=';')
+      df = pd.read_csv('https://raw.githubusercontent.com/m-nanda/TA/main/Data/cardio_train_ind.csv', sep=';')
       df.drop(columns=['id'], inplace=True)
       st.markdown('Dataset Rekam Medis Awal')
       st.dataframe(df.head(10))        

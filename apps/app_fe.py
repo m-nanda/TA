@@ -65,15 +65,13 @@ def app():
                           Kadar_Kolestrol, Kadar_Glukosa, Status_Perokok, 
                           Status_Peminum_Alkohol, Status_Kegiatan_Fisik])
       if submitted:        
-#         st.write('Gejala Anda:', gejala)
         st.write('Hasil deteksi:') 
-#         hasil_hurim = pd.read_csv('https://raw.githubusercontent.com/mns-037/tes/main/default_huri_.csv', sep=';')
-        hasil_hurim = pd.read_csv('https://raw.githubusercontent.com/mns-037/tes/main/default_huri_70.csv', sep=';')
+        hasil_hurim = pd.read_csv('https://raw.githubusercontent.com/m-nanda/TA/main/default_huri_70.csv', sep=';')
 #         st.dataframe(hasil_hurim.head(5))
 #         st.write(hasil_hurim.columns)
         res = prediksi_kardio(gejala, hasil_hurim)
   
-        data_Rq = pd.read_csv('https://raw.githubusercontent.com/mns-037/tes/main/default_huri_.csv', sep=';')
+        data_Rq = pd.read_csv('https://raw.githubusercontent.com/m-nanda/TA/main/default_huri_70.csv', sep=';')
         data_Rq_plus = data_Rq[data_Rq['Diagnosis'] == 'berpotensi memiliki penyakit kardiovaskular'].copy().drop(columns=['Panjang HURI']).sort_values(by=['Utilitas'], ascending=False)
         data_Rq_plus['Gejala'] = data_Rq_plus['HURI'].apply(lambda u: konvert(u, iu))
         data_Rq_plus = data_Rq_plus[['Gejala', 'Diagnosis', 'Utilitas', 'Support']]
